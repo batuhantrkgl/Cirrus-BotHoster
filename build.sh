@@ -1,5 +1,6 @@
 #!/bin/bash
 
+## by @batuhantrkgl
 function tg_sendText() {
 curl -s "https://api.telegram.org/bot$BOT_TOKEN/sendMessage" \
 -d "parse_mode=html" \
